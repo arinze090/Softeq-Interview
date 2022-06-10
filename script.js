@@ -88,13 +88,13 @@ function verify() {
   if (isNaN(guess)) {
     output.innerHTML = "Enter a number.";
   } else if (number === guess) {
-    output.innerHTML = "You guessed right!";
+    output.innerHTML = "0";
   } else if (guess > 1000000) {
     output.innerHTML = "Your guess is out of the 1 to 1000000 range.";
   } else if (guess > number) {
-    output.innerHTML = "Your guess is too high.";
+    output.innerHTML = "1";
   } else if (guess < number) {
-    output.innerHTML = "Your guess is too low.";
+    output.innerHTML = "-1";
   }
   return false;
 }
