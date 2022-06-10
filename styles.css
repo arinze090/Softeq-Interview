@@ -1,0 +1,23 @@
+.third {
+  color: red;
+  background-color: black;
+}
+
+.sample {
+  font-style: italic;
+}
+
+.btn {
+  height: 50px;
+  background-color: #000;
+  border-radius: 10px;
+  width: 30%;
+  color: white;
+  font-size: 20px;
+}
+
+.Q2 {
+  background-color: whitesmoke;
+  margin: 20px;
+  padding: 10px;
+}

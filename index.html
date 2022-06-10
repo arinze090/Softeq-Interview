@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Bingo</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div>
+      <!-- Question 1 -->
+      <div class="Q2">
+        <h1>
+          Question 1: Apply CSS styles (red color and black background) to the
+          third paragraph
+        </h1>
+
+        <p>First</p>
+        <p>Second</p>
+        <p class="third">Third</p>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="Q2">
+        <h1>
+          Question 2: Write a program that outputs sequentially the integers
+          from 1 to 99 but on some conditionsprints a string instead:
+        </h1>
+        <p style="font-style: italic; font-weight: bold; color: red">
+          The solution to question 2 is in the script.js file
+        </p>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="Q2">
+        <h1>
+          Question 3: Find all children of the container HTML element in the
+          following template using nativeJavaScript functionality
+        </h1>
+        <p style="font-style: italic; font-weight: bold; color: red">
+          The solution to question 3 is in the script.js file
+        </p>
+      </div>
+
+      <!-- Question 4 -->
+      <div class="Q2">
+        <h1>
+          Question 4: Write a function that takes a list of strings and returns
+          the sum of the list items that represent aninteger (skipping the other
+          items)
+        </h1>
+
+        <p class="sample">
+          My sample array is: ["2.3", "12", "O", "C", "q", "1249", "A", "0\n"]
+        </p>
+
+        <button class="btn" type="button" onclick="Q4()">
+          Click to view Question 4 solution
+        </button>
+        <p id="q4"></p>
+      </div>
+
+      <!-- Question 5 -->
+      <div class="Q2">
+        <h1>
+          Question 5: Write a function that gets JSON from the following
+          link(https://jsonplaceholder.typicode.com/posts) and returns an object
+          with id = 5
+        </h1>
+
+        <button class="btn" type="button" onclick="fetchApi()">
+          Click to view Question 5 solution
+        </button>
+        <div>
+          <p id="fetchapi"></p>
+        </div>
+      </div>
+
+      <!-- Question 6 -->
+      <div class="Q2">
+        <h1>
+          Question 6: Write a regular expression to match strings containing
+          both "Softeq" and "#rules" in any order
+        </h1>
+
+        <p style="font-style: italic; font-weight: bold; color: red">
+          The solution to question 6 is in the script.js file
+        </p>
+        <p style="font-style: italic">
+          Also, kindly check the console for the detailed result
+        </p>
+        <button class="btn" type="button" onclick="number6()">Click to view Regex solution</button>
+        <p id="q6"></p>
+      </div>
+
+      <!-- Question 7 -->
+      <div class="Q2">
+        <h1>
+          Question 7: Write a function that, when called, returns an array for
+          which each element is a letter of the alphabet, from "A" to "Z"
+          (exactly once, in order and upper case). Your code cannot contain
+          thecharacter ' (quote), " (double quote) or ` (backquote
+        </h1>
+
+        <p style="font-style: italic">
+          Also, kindly check the console for the detailed result
+        </p>
+        <button class="btn" type="button" onclick="alphabets()">
+          Click to view Alphabet task
+        </button>
+        <p id="alphabet"></p>
+      </div>
+
+      <!-- Question 8 -->
+      <div class="Q2">
+        <h1>
+          Question 8: Solve the game "Guess a number", find a secret integer
+          between 1 and 1000000 in less than 50guesses. Write a function that
+          solves the game and returns the solution by using the functionverify()
+          which is defined with the following specification
+        </h1>
+        <p>Pick a number between 1 and 1000000.</p>
+        <form id="guessNumber">
+          <input type="text" name="guess" />
+          <input type="submit" value="Submit Guess" />
+        </form>
+        <p id="output"></p>
+      </div>
+    </div>
+  </body>
+</html>
